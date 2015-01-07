@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CS442ProjectTeam8</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="welcome_message">CarCareApp</string>
+    <string name="search">Search</string>
+    <string name="part_name">Sample Part</string>
+    <string name="part_desc">Sample Part Description</string>
+    <string name="find_store">Find A Store</string>
+    <string name="btn_map">Map</string>
+    <string name="btn_list">List</string>
+    <string name="order">Order</string>
+    <string name="price">Price</string>
+    <string name="title_activity_splash">CarCareApp</string>
+    <string name="title_activity_welcome">WelcomeScreen</string>
+    <string name="title_activity_parts_list">Parts For Your Car</string>
+    <string name="title_activity_part_desc_find_store">Find A Store For This Part</string>
+    <string name="title_activity_store_list">List Of Stores</string>
+    <string name="title_activity_store_info">Store Information</string>
+
+    <string-array name="make_array">
+        <item>Honda</item>
+        <item>Toyota</item>
+        <item>Chrysler</item>
+        <item>Ford</item>
+    </string-array>
+    <string-array name="model_array">
+        <item>Civic</item>
+        <item>CRV</item>
+        <item>Supra</item>
+        <item>PT Cruiser</item>
+        <item>Focus</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>1990</item>
+        <item>1995</item>
+        <item>2000</item>
+        <item>2005</item>
+    </string-array>
+    <string-array name="parts_array">
+        <item>Tires</item>
+        <item>Headlights</item>
+        <item>Brakes</item>
+        <item>Wheels</item>
+    </string-array>
+
+    <string name="title_activity_store_map">Map of Stores</string>
+    <string name="title_activity_part_desc_order">Order Product</string>
+
+</resources>

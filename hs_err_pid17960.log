@@ -1,0 +1,97 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=17960, tid=18968
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0-b147
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.0-b17 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002c0d000):  JavaThread "Unknown thread" [_thread_in_vm, id=18968, stack(0x0000000002a70000,0x0000000002b70000)]
+
+Stack: [0x0000000002a70000,0x0000000002b70000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002c0d000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=18968, stack(0x0000000002a70000,0x0000000002b70000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00007ff66cb70000 - 0x00007ff66cba3000 	C:\Program Files\Java\jdk1.7.0\bin\javaw.exe
+0x00007fff25970000 - 0x00007fff25b19000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007fff232c0000 - 0x00007fff233f9000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007fff22ff0000 - 0x00007fff230fe000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007fff21920000 - 0x00007fff219ab000 	C:\WINDOWS\system32\apphelp.dll
+0x00007fff12110000 - 0x00007fff1215c000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007fff240d0000 - 0x00007fff24177000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007fff22b30000 - 0x00007fff22b5b000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007fff23bb0000 - 0x00007fff23c01000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007fff257f0000 - 0x00007fff25961000 	C:\WINDOWS\system32\USER32.dll
+0x00007fff238e0000 - 0x00007fff23a56000 	C:\WINDOWS\system32\ole32.dll
+0x00007fff24290000 - 0x00007fff2569f000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007fff226c0000 - 0x00007fff226df000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007fff24180000 - 0x00007fff24225000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007fff1b870000 - 0x00007fff1b88b000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007fff23e80000 - 0x00007fff23fb6000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007fff23fc0000 - 0x00007fff24017000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007fff23c70000 - 0x00007fff23e47000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007fff256a0000 - 0x00007fff257e5000 	C:\WINDOWS\system32\GDI32.dll
+0x00007fff22cf0000 - 0x00007fff22d04000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007fff21420000 - 0x00007fff214c1000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007fff23ac0000 - 0x00007fff23af4000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007fff23400000 - 0x00007fff23538000 	C:\WINDOWS\system32\MSCTF.dll
+0x00007fff20ad0000 - 0x00007fff20d2a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.16384_none_62475f7becb72503\COMCTL32.dll
+0x0000000055140000 - 0x0000000055211000 	C:\Program Files\Java\jdk1.7.0\jre\bin\msvcr100.dll
+0x000000005be30000 - 0x000000005c4fe000 	C:\Program Files\Java\jdk1.7.0\jre\bin\server\jvm.dll
+0x00007fff1ae90000 - 0x00007fff1ae99000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007fff1b850000 - 0x00007fff1b86f000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007fff238d0000 - 0x00007fff238d7000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007fff24230000 - 0x00007fff24288000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007fff16d20000 - 0x00007fff16d4a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007fff236e0000 - 0x00007fff236e9000 	C:\WINDOWS\system32\NSI.dll
+0x00007fff231b0000 - 0x00007fff231fa000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007fff21b80000 - 0x00007fff21ba6000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x000000005ccd0000 - 0x000000005ccdf000 	C:\Program Files\Java\jdk1.7.0\jre\bin\verify.dll
+0x000000005be00000 - 0x000000005be28000 	C:\Program Files\Java\jdk1.7.0\jre\bin\java.dll
+0x000000005cb20000 - 0x000000005cb35000 	C:\Program Files\Java\jdk1.7.0\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\adt-bundle-windows-x86_64-20130219\sdk\platforms\android-18\android.jar;C:\adt-bundle-windows-x86_64-20130219\sdk\add-ons\addon-google_apis-google-18\libs\effects.jar;C:\adt-bundle-windows-x86_64-20130219\sdk\add-ons\addon-google_apis-google-18\libs\usb.jar;C:\adt-bundle-windows-x86_64-20130219\sdk\add-ons\addon-google_apis-google-18\libs\maps.jar 
+java_command: database.PartsDatabaseHandler
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jdk1.7.0/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0/bin/../jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Java\jdk1.7.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\TortoiseHg\;C:\adt-bundle-windows-x86_64-20130219\eclipse;
+USERNAME=Neil
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 16664504k(6065408k free), swap 33441720k(20202040k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.0-b17) for windows-amd64 JRE (1.7.0-b147), built on Jun 27 2011 02:19:45 by "java_re" with unknown MS VC++:1600
+
+time: Sun Nov 17 11:33:37 2013
+elapsed time: 0 seconds
+
